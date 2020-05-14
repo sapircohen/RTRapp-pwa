@@ -2106,6 +2106,7 @@ $(document).on('pagebeforeshow', '#loginPreference', function () {
         }
         getPatients(request, getPatientsSCB, getPatientsECB);
     }
+    alertPushMsg('sapir test');
 
     //check push on coldstart from login (taking the cached data from localstorage)
     if (localStorage.lastPush != undefined && typeof loginThread !== 'undefined' && loginThread) {
@@ -3104,7 +3105,7 @@ function onDeviceReady() {
                 // config.xml
             },
             browser: {
-                //pushServiceURL: 'http://push.api.phonegap.com/v1/push'
+                pushServiceURL: 'http://push.api.phonegap.com/v1/push'
             },
             ios: {
                 alert: "true",
