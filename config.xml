@@ -15,6 +15,7 @@
   <!-- <preference name='phonegap-version' value='cli-8.1.1' /> -->
   <preference name="phonegap-version" value="cli-9.0.0" />
   <preference name='pgb-builder-version' value='2' />
+<preference name="ServiceWorker" value="serviceWorker.js" />
 
   <icon src="icon.png" />
 
