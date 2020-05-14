@@ -4013,7 +4013,7 @@ function otherDialogFunction(reaction_) {
 
                     if (newUrl != null && newUrl != "" && password != null && password != "") {
                         if (password == "P@ss" || password == "Peace") {
-                            domain = newUrl;
+                            domain =newUrl;
                             localStorage.domain = domain;
                             popupDialog('הודעה', 'השרת שונה בהצלחה.', null, false, null);
 
