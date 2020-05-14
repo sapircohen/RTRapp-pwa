@@ -107,7 +107,7 @@ function defaultServerDomain() {
 
     }
     else {
-        if (!window.location.href.includes('http')) {
+        if (window.location.href.includes('http')) {
             domain = 'https://roadtorecovery.org.il/prod/Road%20to%20Recovery/pages/';
         }
         else {
